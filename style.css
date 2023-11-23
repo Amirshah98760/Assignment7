@@ -1,0 +1,169 @@
+/* BOX DIMENSIONS */
+/* div.box {
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+}
+    p {
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+} */
+
+/*  LIMITING WIDTH */
+/* d.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;} */
+
+    /*LIMITING HEIGHT */
+    /* h2, p {
+        width: 400px;
+        font-size: 90%;
+        line-height: 1.2em;
+    }
+        h2 {
+        color: #0088dd;
+        border-bottom: 1px solid #0088dd;
+    }
+
+   p{
+   max-height: 250px;
+   border: 1px solid green;
+   } */
+
+   /* OVERFLOW */
+   /* .container
+   {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: hidden;
+    overflow: scroll;
+   } */
+
+   /* BORDER WIDTH */
+   /* ONE BY ONE */
+   /* p{
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+   } */
+   /* SHORT HAND PROPERTY OF BORDER */
+   /* p{
+    border-width: 1px 2px 3px 4px; This property work Clock wise (top right bottom left)
+    border-style: solid;
+    border-color: red;
+} */
+/* BORDER STYLE  */
+
+/* p{
+border-style: dashed ;
+}*/
+
+/* BORDER COLOR  */
+/* p{
+ border-color: brown;
+ border-style: solid;
+} */
+
+/* BORDER SHORTHAND  */
+/* p{
+    border: 1px solid red;
+} */
+
+/* PADDING  */
+/* p{
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 25px;
+    padding:20px 25px 30px 40px ;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40;
+    padding-left: 50px;
+} */
+
+/* MARGIN */
+/* .container{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 20px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin: auto;
+} */
+/* p{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+}
+.para2{
+    margin-top: 100px;
+} */
+
+/* Display Property in Css */
+/* li {
+    display: inline; 
+    margin-right: 10px;
+}
+    li.coming-soon {
+    display: none;
+} */
+
+/* HIDING BOXES */
+/* li {
+    display: inline; 
+    margin-right: 10px;}
+li.coming-soon{
+    visibility: hidden;
+} */
+
+/* BORDER IMAGE  */
+/* p.one{
+    border:10px solid transparent;
+    border-image: url("./Assets/images/dots.webp") 30 round;
+    padding: 15px;
+} */
+
+/* BOX SHADOW */
+/* .one{
+    width: 200px;
+    box-shadow: 10px 10px 2px red;
+} */
+/* .one{
+    width: 200px;
+    box-shadow: -10px -10px 2px red;
+} */
+
+/* ROUNDED CORNERS  */
+.container1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.container2{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    border-radius: 50px 0px 0px 0px;
+    text-align: right;
+}
+.container3{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+    
+}
+div{
+    margin-top: 20px;
+}
